@@ -7,9 +7,8 @@ group :development do
   gem 'sqlite3'
 end
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-  gem "unicorn"
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
 gem 'sass-rails', '4.0.0'
