@@ -6,6 +6,8 @@ gem 'rails', '4.0.0'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
+  gem 'spork-rails', github: 'sporkrb/spork-rails'
+  gem 'childprocess', '0.3.6'
 end
 group :test do
   gem 'selenium-webdriver', '2.0.0'
